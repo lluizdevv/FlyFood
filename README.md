@@ -36,16 +36,15 @@ Desenvolver soluções para encontrar a **rota de menor custo** para um drone qu
   - `R` → origem
   - `A, B, C...` → entregas
 - Distância: Manhattan
-  - D(u,v) = |x1 - x2| + |y1 - y2
+  - D(u,v) = |x1 - x2| + |y1 - y2|
 
 
 
 ## 📂 Estrutura do Projeto
-FlyFood/
-│
-├── 1-AV/ # Solução com força bruta (exata)
-├── 2-AV/ # Evolução com algoritmo genético
-└── README.md
+- FlyFood
+  - 1-AV/ # Solução com força bruta (exata)
+  - 2-AV/ # Evolução com algoritmo genético
+  - README.md
 
 
 
@@ -91,20 +90,20 @@ python flyfood_main.py
 ```
 
 ## 📌 Conceitos Utilizados
-Problema do Caixeiro Viajante (TSP)
-Distância de Manhattan
-Complexidade NP-difícil
-Heurísticas e Meta-heurísticas
-Algoritmos Genéticos
+- Problema do Caixeiro Viajante (TSP)
+- Distância de Manhattan
+- Complexidade NP-difícil
+- Heurísticas e Meta-heurísticas
+- Algoritmos Genéticos
 
 ## 👨‍💻 Autores
 
-Projeto desenvolvido por estudantes de Sistemas de Informação - UFRPE:
+Projeto desenvolvido por Estudantes de Sistemas de Informação - UFRPE:
 
-Luiz Vinicius de Lima Santos
-Clara Helena Souza da Silva
-Danielly Mendonça Nunes
-Lucas Gabriel Ferreira de Santana
+- Clara Helena Souza da Silva
+- Danielly Mendonça Nunes
+- Lucas Gabriel Ferreira de Santana
+- Luiz Vinicius de Lima Santos
 
 ## 📚 Licença
 
