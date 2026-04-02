@@ -4,7 +4,7 @@ O **FlyFood** é um projeto acadêmico desenvolvido no curso de Sistemas de Info
 
 O problema é modelado como uma variação do **Problema do Caixeiro Viajante (TSP)**, utilizando a **distância de Manhattan** para representar deslocamentos em uma malha urbana (sem movimentos diagonais).
 
----
+
 
 ## 📌 Motivação
 
@@ -16,7 +16,7 @@ O crescimento das entregas urbanas exige soluções mais eficientes. Nesse conte
 
 O FlyFood propõe resolver esse problema utilizando algoritmos computacionais.
 
----
+
 
 ## 🎯 Objetivo
 
@@ -27,7 +27,7 @@ Desenvolver soluções para encontrar a **rota de menor custo** para um drone qu
 3. Retorna ao ponto inicial  
 4. Minimiza a distância total percorrida  
 
----
+
 
 ## 🧠 Modelagem do Problema
 
@@ -38,7 +38,7 @@ Desenvolver soluções para encontrar a **rota de menor custo** para um drone qu
 - Distância: Manhattan
   - D(u,v) = |x1 - x2| + |y1 - y2
 
----
+
 
 ## 📂 Estrutura do Projeto
 FlyFood/
@@ -47,7 +47,7 @@ FlyFood/
 ├── 2-AV/ # Evolução com algoritmo genético
 └── README.md
 
----
+
 
 ## ⚙️ Abordagens Utilizadas
 
@@ -57,7 +57,7 @@ FlyFood/
 - Garante solução ótima
 - Complexidade: **O(n!)**
 
----
+
 
 ### 🔹 2ª Avaliação (2-AV)
 - Algoritmo: **Algoritmo Genético (GA)**
@@ -68,7 +68,7 @@ FlyFood/
   - Crossover (OX)
   - Mutação por inversão
 
----
+
 
 ## 📊 Comparação das Abordagens
 
@@ -77,7 +77,7 @@ FlyFood/
 | Força Bruta     | Solução ótima        | Inviável para muitos pontos |
 | Alg. Genético   | Escalável e rápido   | Aproximação (não exata)  |
 
----
+
 
 ## 🚀 Como Executar
 
